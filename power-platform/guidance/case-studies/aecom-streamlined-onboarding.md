@@ -141,7 +141,7 @@ The first diagram is a flowchart that illustrates the integration of various sof
 
 :::image type="content" source="media/aecom-streamlined-onboarding/architecture.png" alt-text="Flowchart showing integration of Copilot, Workday, Outlook, Power Automate, Azure services, and Power Apps in a data and workflow pipeline, with numbered callouts.":::
 
-Legend:
+The following workflow describes the steps taken in the above diagram:
 
 1. Copilot capabilities in Power Automate and Power Apps streamline workflows and increase productivity.
 1. Workday sends weekly human resource management (HRM) data to a shared mailbox in Microsoft Outlook.
@@ -158,7 +158,7 @@ Next, let's take a deeper look at the architecture of the Project Connect applic
 
 :::image type="content" source="media/aecom-streamlined-onboarding/architecture-power-apps.png" alt-text="Flowchart showing how Project Connect uses Power Automate to link tools like Copilot, Power Apps, SQL, and Power BI for AECOM project onboarding, with numbered callouts.":::
 
-Legend:
+The following workflow describes the above diagram:
 
 1. Copilot capabilities in Power Automate, Dataverse, and Power Apps streamline workflows and increase productivity.
 1. From the previous workflow, the HR data is sent from Azure SQL Database to be displayed in the Project Connect application, which was built with Power Apps.
